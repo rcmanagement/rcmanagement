@@ -1,41 +1,23 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sportswear - RCManagement</title>
-    <link rel="stylesheet" href="style.css">
+<title>Sportswear</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-<header>
-    <h2>RCManagement</h2>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="sportswear.html">Sportswear</a>
-        <a href="school.html">School Needs</a>
-        <a href="electronics.html">Electronics</a>
-    </nav>
-</header>
-
-<h1>Sportswear</h1>
-
-<div class="grid">
-
-    <div class="card">
-        <img src="https://via.placeholder.com/300" alt="Product">
-        <h3>Basketball Jersey</h3>
-        <p>₱199</p>
-        <a href="#" target="_blank">Buy on Shopee</a>
-    </div>
-
-    <div class="card">
-        <img src="https://via.placeholder.com/300" alt="Product">
-        <h3>Compression Shirt</h3>
-        <p>₱149</p>
-        <a href="#" target="_blank">Buy on Shopee</a>
-    </div>
-
+<body onload="init()">
+<header><h1>RCManagement</h1></header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="sportswear.html">Sportswear</a>
+  <a href="school.html">School Needs</a>
+  <a href="electronics.html">Electronics</a>
+</nav>
+<div class="container">
+<div id="product-list" class="cards"></div><script>loadProducts('sports')</script>
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>
+        
