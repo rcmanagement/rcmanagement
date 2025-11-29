@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Basketball Shorts",
+    "category": "sports",
+    "price": "\u20b1199",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  },
+  {
+    "name": "Running Shoes",
+    "category": "sports",
+    "price": "\u20b1899",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  },
+  {
+    "name": "Scientific Calculator",
+    "category": "school",
+    "price": "\u20b1349",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  },
+  {
+    "name": "Wireless Earbuds",
+    "category": "electronics",
+    "price": "\u20b1499",
+    "image": "https://via.placeholder.com/300",
+    "link": "#"
+  }
+]
